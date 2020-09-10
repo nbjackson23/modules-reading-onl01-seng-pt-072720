@@ -4,8 +4,6 @@ require_relative './dance_module.rb'
 
 class Kid
   
-  include FancyDance :: InstanceMethods
-  extend FancyDance :: ClassMethods
   include Dance
   extend Metadancing
   
